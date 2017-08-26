@@ -18,7 +18,7 @@ For each layer:
 + activation_derivative :  current_layer_size x batch_size
 
 Forward Propagate:
-- For each layer:
+For each layer:
 
 - Calculate output_matrix = activation(input_matrix)
 - Append bias column to output_matrix
@@ -34,7 +34,7 @@ Backward Propagate:
 - Calculate previous layers delta_matrix = current weight_matrix dot next layer delta_matrix then element-wise product with current activation_derivative matrix
 
 Update Weight:
-- For all layers:
+For all layers:
 
 - weight_gradient = learning_rate * (next layer delta_matrix dot current output_matrix) transpose
 - weight_matrix -= weight_gradient
