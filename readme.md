@@ -5,6 +5,7 @@ Run draw.py, then click train. After the training has finished, close popup, dra
 Note :D
 -------------------
 - It makes many errors. 
+
 Backpropagation Review
 -------------------
 
